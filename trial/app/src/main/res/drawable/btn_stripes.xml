@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <layer-list>
+            <item android:top="1dp" android:bottom="1dp" android:left="1dp" android:right="1dp">
+                <bitmap android:src="@color/colorPrimary"
+                    android:tileMode="repeat"
+                    android:dither="true"/>
+            </item>
+            <item>
+                <shape android:shape="rectangle">
+                    <corners android:radius="5dp"/>
+                    <stroke android:width="2dp" android:color="#e6f4cc"/>
+                    <solid android:color="@android:color/transparent"/>
+                </shape>
+            </item>
+            <item android:top="2dp">
+                <shape android:shape="rectangle">
+                    <corners android:radius="5dp"/>
+                    <stroke android:width="1dp" android:color="#c3e392"/>
+                    <solid android:color="@android:color/transparent"/>
+                </shape>
+            </item>
+            <item>
+                <shape android:shape="rectangle">
+                    <corners android:radius="5dp"/>
+                    <stroke android:width="1dp" android:color="#a6a6a6"/>
+                    <solid android:color="@android:color/transparent"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item android:state_pressed="true">
+        <layer-list>
+            <item android:top="1dp" android:bottom="1dp" android:left="1dp" android:right="1dp">
+                <bitmap android:src="@color/colorAccent"
+                    android:tileMode="repeat"
+                    android:dither="true"/>
+            </item>
+            <item>
+                <shape android:shape="rectangle">
+                    <corners android:radius="5dp"/>
+                    <stroke android:width="2dp" android:color="#e6f4cc"/>
+                    <solid android:color="@android:color/transparent"/>
+                </shape>
+            </item>
+            <item android:top="2dp">
+                <shape android:shape="rectangle">
+                    <corners android:radius="5dp"/>
+                    <stroke android:width="1dp" android:color="#c3e392"/>
+                    <solid android:color="@android:color/transparent"/>
+                </shape>
+            </item>
+            <item>
+                <shape android:shape="rectangle">
+                    <corners android:radius="5dp"/>
+                    <stroke android:width="1dp" android:color="@android:color/black"/>
+                    <solid android:color="@android:color/transparent"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>

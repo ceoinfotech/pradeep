@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <View
+        android:id="@+id/stripe_one"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.25"
+        android:background="@android:color/holo_red_light"  />
+
+    <View
+        android:id="@+id/stripe_two"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.25"
+        android:background="@color/background_dark"  />
+
+    <View
+        android:id="@+id/stripe_three"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.25"
+        android:background="@color/colorPrimary"  />
+
+    <View
+        android:id="@+id/stripe_four"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.25"
+        android:background="@color/colorAccent"  />
+
+</LinearLayout>
